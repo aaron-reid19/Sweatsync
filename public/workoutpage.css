@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+.form-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 4px solid darkblue;
+    width: 750px;
+    padding: 16px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.form.container input[type="text"],
+.form.container input[type="number"] {
+    width: 100%;
+}

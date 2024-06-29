@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="login-register.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="register" >
+        <h2>Create a new account</h2>
+        <form action="/register" method="post">
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" required class="form-control"/><br>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name"  required class="form-control"/><br>
+            <input type="text" id="email" name="email" placeholder="Email" required class="form-control"/><br>
+            <input type="number" id="phonenumber" name="phonenumber" placeholder="Phone number" required class="form-control"/><br>
+            <input type="text" id="city" name="city" placeholder="City" required class="form-control"/><br>
+            <input type="text" id="username" name="username" placeholder="Username" required class="form-control"/><br>
+            <input type="text" id="password" name="password" placeholder="Password" required class="form-control"/><br>
+            <input type="text" id="retypePassword" name="retypePassword" placeholder="Re-Type Password" required class="form-control"/><br>
+            <input type="submit" id="signup" value="Signup" class="btn btn-outline-success"/><br>
+        </form>
+        <br>
+        <form action="loginpage" method="get">
+            <input type="submit" value="Already have an account?" class="btn btn-outline-info"/>
+        </form>
+        
+    </div>
+</body>
+</html>

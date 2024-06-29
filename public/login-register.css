@@ -1,0 +1,40 @@
+body {
+    background-color: #008763;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login {
+    text-align: center;
+    background-color: white;
+    border: 0px solid #008763;
+    width:350px;
+    padding: 16px;
+    border-radius:10px;
+    box-shadow: 0px 0px 20px 2px grey;
+}
+
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="submit"] {
+    width: 100%; /* Make these elements 100% width within the .login container */
+}
+
+.register {
+    text-align: center;
+    background-color: white;
+    border: 4px solid #008763;
+    width:600px;
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 2px grey;
+}
+
+.register input[type="text"],
+.register input[type="password"],
+.register input[type="submit"] {
+    width: 100%; /* Make these elements 100% width within the .register container */
+}
