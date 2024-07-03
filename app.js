@@ -79,7 +79,7 @@ app.get("/logout", (req, res) => {
             console.error("Error destroying session: ", err);
             res.status(500).send("Error logging out. Please try again.");
         } else {
-            res.redirect("login");
+            res.send("/login");
         }
     });
 })
